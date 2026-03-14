@@ -1,11 +1,10 @@
 {
-  "name": "workana-webhook",
+  "name": "sistema-workana",
   "version": "1.0.0",
   "description": "Webhook Evolution para auto-envio de propostas Workana",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -13,6 +12,6 @@
     "node-fetch": "^2.7.0"
   },
   "engines": {
-    "node": ">=18"
+    "node": "18.x"
   }
 }
